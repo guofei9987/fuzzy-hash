@@ -5,6 +5,8 @@ from ctypes import c_char_p, c_uint32, create_string_buffer
 
 module_path = os.path.dirname(__file__)
 
+__version__ = '0.0.1'
+
 fuzzy_hash_buff = core.fuzzy_hash_buf
 fuzzy_hash_buff.argtypes = [c_char_p, c_uint32, c_char_p]
 fuzzy_hash_buff.restype = c_uint32
