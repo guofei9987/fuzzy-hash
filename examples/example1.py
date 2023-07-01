@@ -15,8 +15,8 @@ sentence = '''
 sentence2 = sentence.replace('电视剧', '视频')
 sentence2 += "添加几句结尾"
 
-hash1 = fuzzy_hash(sentence)
-hash2 = fuzzy_hash(sentence2)
+hash1 = fuzzy_hash(sentence.encode('utf-8'))
+hash2 = fuzzy_hash(sentence2.encode('utf-8'))
 
 print(hash1)
 print(hash2)

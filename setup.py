@@ -6,6 +6,7 @@ import os
 
 this_directory = os.path.abspath(os.path.dirname(__file__))
 
+
 # 读取 README
 def read_file(filename):
     with open(os.path.join(this_directory, filename), encoding='utf-8') as f:
@@ -15,13 +16,13 @@ def read_file(filename):
 
 setup(
     name='fuzzy-hash',
-    version='0.0.2',
+    version='0.0.3',
     python_requires='>=3.5',
     packages=find_packages(),
     ext_modules=[
         Extension(
-            "fuzzy_hash.lib.core",
-            [
+            name="fuzzy_hash.lib.core",
+            sources=[
                 'fuzzy_hash/lib/fuzzy.c',
                 'fuzzy_hash/lib/edit_dist.c',
             ])

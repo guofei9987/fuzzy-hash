@@ -5,15 +5,14 @@ from ctypes import c_char_p, c_uint32, create_string_buffer
 
 module_path = os.path.dirname(__file__)
 
-__version__ = '0.0.1'
+__version__ = '0.0.3'
 
 fuzzy_hash_buff = core.fuzzy_hash_buf
 fuzzy_hash_buff.argtypes = [c_char_p, c_uint32, c_char_p]
 fuzzy_hash_buff.restype = c_uint32
 
 
-def fuzzy_hash(buf):
-    buf = buf.encode('utf-8')
+def fuzzy_hash(buf: bytes):
     res = create_string_buffer(0x50000)
     fuzzy_hash_buff(buf, len(buf), res)
     return res.value

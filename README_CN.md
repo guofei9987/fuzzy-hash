@@ -1,21 +1,40 @@
-# fuzzy-hash
-
-This project computes fuzzy hash.  
-
-## install
+# [fuzzy-hash](https://github.com/guofei9987/fuzzy-hash)
 
 
-If `gcc` is not installed, execute the following command to install `gcc`:
+
+[![PyPI](https://img.shields.io/pypi/v/fuzzy-hash)](https://pypi.org/project/fuzzy-hash/)
+
+[comment]: <> ([![Build Status]&#40;https://travis-ci.com/guofei9987/fuzzy-hash.svg?branch=master&#41;]&#40;https://travis-ci.com/guofei9987/fuzzy-hash&#41;)
+
+[comment]: <> ([![codecov]&#40;https://codecov.io/gh/guofei9987/fuzzy-hash/branch/master/graph/badge.svg&#41;]&#40;https://codecov.io/gh/guofei9987/fuzzy-hash&#41;)
+
+[comment]: <> ([![License]&#40;https://img.shields.io/pypi/l/fuzzy-hash.svg&#41;]&#40;https://github.com/guofei9987/fuzzy-hash/blob/master/LICENSE&#41;)
+![Python](https://img.shields.io/badge/python->=3.5-green.svg)
+![Platform](https://img.shields.io/badge/platform-windows%20|%20linux%20|%20macos-green.svg)
+[![star](https://img.shields.io/github/stars/guofei9987/fuzzy-hash.svg?style=social)](https://github.com/guofei9987/fuzzy-hash/fork)
+[![fork](https://img.shields.io/github/forks/guofei9987/fuzzy-hash?style=social)](https://github.com/guofei9987/fuzzy-hash/fork)
+[![Downloads](https://pepy.tech/badge/fuzzy-hash)](https://pepy.tech/project/fuzzy-hash)
+
+
+
+
+此项目用来计算字符串的 **模糊哈希(Fuzzy Hash)**. Fuzzy hash 是一种计算文件或数据块相似度的技术。  
+与传统哈希不同的是，Fuzzy Hash 可以用来计算相似度。  
+
+## 安装
+
+如果系统中没有安装 `gcc`，需要先执行以下的命令安装 `gcc`：
 
 ```bach
 apt update
 apt install gcc -y
 ```
 
-Then install `fuzzy-hash`
+然后安装 fuzzy-hash
 ```bash
 pip install fuzzy-hash
 ```
+
 
 
 
@@ -47,7 +66,7 @@ corr = fuzzy_compare(hash1, hash2)
 print('corr = {}%'.format(corr))
 ```
 
-outputs:
+输出:
 >b'24:NCRqxthHjDYTvxiiIhNM+Nkr6gy8C4xB66R514cLCxdAtXKlru2uEj:tBH4TdN+OuNOprIxRAa'  
 b'24:NocPinHjDYTvxiiISxM+Nkr6gy8C4xB66R514cLCxdAtXKlru2uExi2dx:2cPinH4Tda+OuNOprIxRASLdx'  
 corr = 82%
