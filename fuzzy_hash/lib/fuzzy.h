@@ -1,59 +1,8 @@
 #ifndef FUZZY_H
 #define FUZZY_H
 
-/*
- * Copyright (C) ManTech International Corporation 2010
- * Copyright (C) Kyrus 2012
- * Copyright (C) 2013 Helmut Grohne <helmut@subdivi.de>
- *
- * $Id$
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
- *
- * Earlier versions of this code can be found at:
- *     http://ssdeep.sf.net/
- */
-
-/// \mainpage
-/// This is the documentation for the fuzzy hashing API from ssdeep.
-///
-/// There is a complete function reference in fuzzy.h.
-///
-/// The most recent version of this documentation can be found
-/// at http://ssdeep.sourceforge.net/.
-///
-/// \copydoc fuzzy.h
-///
-/// \version 3.0
-///
-/// \author Jesse Kornblum, research@jessekornblum.com
-/// \author Helmut Grohne, helmut@subdivi.de
-
-/// \file fuzzy.h
-/// \brief
 /// These functions allow a programmer to compute the fuzzy hashes
-/// (also called the context-triggered piecewise hashes) of
-/// \link fuzzy_hash_buf() a buffer
-/// of text @endlink,
-/// \link fuzzy_hash_filename() the contents of a file on the disk @endlink,
-/// and
-/// @link fuzzy_hash_file() the contents of
-/// an open file handle @endlink .
-/// There is also a function to
-/// @link fuzzy_compare() compute the
-/// similarity between any two fuzzy signatures @endlink.
+/// (also called the context-triggered piecewise hashes)
 
 
 #include <stdint.h>

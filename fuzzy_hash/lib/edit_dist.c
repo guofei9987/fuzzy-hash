@@ -1,15 +1,3 @@
-/**
- * Modified levenshtein distance calculation
- *
- * This program can be used, redistributed or modified under any of
- * Boost Software License 1.0, GPL v2 or GPL v3
- * See the file COPYING for details.
- *
- * $Id$
- *
- * Copyright (C) 2014 kikairoya <kikairoya@gmail.com>
- * Copyright (C) 2014 Jesse Kornblum <research@jessekornblum.com>
- */
 #include <stddef.h>
 
 #define EDIT_DISTN_MAXLEN 64 /* MAX_SPAMSUM */

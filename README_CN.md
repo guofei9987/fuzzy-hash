@@ -4,9 +4,8 @@
 
 [![PyPI](https://img.shields.io/pypi/v/fuzzy-hash)](https://pypi.org/project/fuzzy-hash/)
 
-[comment]: <> ([![Build Status]&#40;https://travis-ci.com/guofei9987/fuzzy-hash.svg?branch=master&#41;]&#40;https://travis-ci.com/guofei9987/fuzzy-hash&#41;)
-
-[comment]: <> ([![codecov]&#40;https://codecov.io/gh/guofei9987/fuzzy-hash/branch/master/graph/badge.svg&#41;]&#40;https://codecov.io/gh/guofei9987/fuzzy-hash&#41;)
+[![Build Status](https://travis-ci.com/guofei9987/fuzzy-hash.svg?branch=master)](https://travis-ci.com/guofei9987/fuzzy-hash)
+[![codecov](https://codecov.io/gh/guofei9987/fuzzy-hash/branch/master/graph/badge.svg)](https://codecov.io/gh/guofei9987/fuzzy-hash)
 
 [comment]: <> ([![License]&#40;https://img.shields.io/pypi/l/fuzzy-hash.svg&#41;]&#40;https://github.com/guofei9987/fuzzy-hash/blob/master/LICENSE&#41;)
 ![Python](https://img.shields.io/badge/python->=3.5-green.svg)
