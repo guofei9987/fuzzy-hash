@@ -27,6 +27,6 @@ setup(
                 'fuzzy_hash/lib/edit_dist.c',
             ])
     ],
-    description='fuzzy hash in python',
-    long_description=read_file('README.md'),
+    description='Fuzzy Hash in python',
+    # long_description=read_file('README.md'),
 )
